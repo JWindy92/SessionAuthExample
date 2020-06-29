@@ -1,0 +1,11 @@
+html
+    head
+        title=title
+    body
+        h1=message
+        p Authenticated? 
+            span=is_auth
+        a(href="/auth") Authenticate (assume OAuth happens here)
+        br
+        p=session_string
+    script(src="test.js")
